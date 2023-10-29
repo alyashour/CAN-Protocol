@@ -10,4 +10,4 @@ I haven't figured out a way to do exactly what I wanted with the identification 
 - Move Data & ID into Frame class as subclasses
 - Increase max Data size above 4 bytes
 - Add codes to ID
-- Add State subclasses extending ID (or maybe ID implementing States)
+- Add State subclasses extending ID (or maybe ID implementing states)
