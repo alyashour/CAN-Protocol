@@ -1,15 +1,13 @@
-import states.ActiveState
-import states.ChargingState
-import states.DebugState
-import states.IdleState
-
 /*******************************************************************
  * Name: Aly Ashour
  * Date: October 29, 2023,
  * Description:
  * Main
  ******************************************************************/
-fun main(args: Array<String>) {
+
+import states.*
+
+fun main() {
     // make three frames
     val f = Frame(ActiveState().start(), Data(10))
     val g = Frame(IdleState().stop(), Data(20, 30))
