@@ -1,8 +1,10 @@
 /*******************************************************************
  Name: Aly Ashour
- Student Number: 251 292 647
  Date: October 29, 2023,
  Description:
+ A bitfield is a set of binary digits with number of digits n.
+ If the digits do not take up the field, the rest are filled with 0.
+ Bitfields must be positive.
  ********************************************************************/
 
 public class BitField {

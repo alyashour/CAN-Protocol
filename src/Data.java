@@ -1,8 +1,11 @@
 /*******************************************************************
  Name: Aly Ashour
- Student Number: 251 292 647
  Date: October 29, 2023,
  Description:
+ Represents the data part of a CAN frame.
+ Consists of an n number of bytes and the number n.
+ I have capped this at 4 bytes for now. Increasing this limit shouldn't
+ be too hard.
  ********************************************************************/
 import java.util.Arrays;
 import java.util.logging.*;
