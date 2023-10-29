@@ -1,4 +1,6 @@
 package states
 
-class DebugState {
+import ID
+class DebugState : ID(DEBUG){
+
 }

@@ -2,8 +2,8 @@ import kotlin.math.pow
 
 open class ID(private var state: Int) {
     /* Default state-independent methods go here*/
-    fun start(): Int { return state + 0b000_000_000 }
-    fun stop(): Int { return state + 0b000_000_001 }
+    fun start(): Int { return state + 0b111_111_111 }
+    fun stop(): Int { return state + 0b111_111_110 }
 
     /* State-independent methods end here */
 
