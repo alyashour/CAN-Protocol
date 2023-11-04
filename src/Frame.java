@@ -16,14 +16,10 @@ public class Frame {
      * @param data  a data field containing data
      */
     public Frame(int id, Data data){
-        this.id = new BitField(ID.getTotalBitCount(), id);
+        this.id = new BitField(IDs.getTotalBitCount(), id);
         this.data = data.toBitField();
     }
 
-    /**
-     * String bb
-     * @return
-     */
     @Override
     public String toString(){
         return String.format(

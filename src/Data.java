@@ -17,7 +17,7 @@ public class Data {
     /**
      * Default, no param constructor
      * Needed this because varargs constructors below depend on there being at least 1 argument
-     * Also i don't want to leave the data[] nullptr
+     * Also I should not leave the data[] nullptr
      */
     public Data(){
         length = 0;

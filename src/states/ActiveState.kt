@@ -1,6 +1,6 @@
 package states
 
-import ID
+import IDs
 
 /*******************************************************************
  * Name: Aly Ashour
@@ -8,7 +8,7 @@ import ID
  * Date: October 29, 2023,
  * Description:
  *******************************************************************/
-class ActiveState : ID(ACTIVE) {
+class ActiveState : IDs(ACTIVE) {
 
 }
 

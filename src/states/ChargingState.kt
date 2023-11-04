@@ -1,8 +1,8 @@
 package states
 
-import ID
+import IDs
 
-class ChargingState : ID(CHARGING) {
+class ChargingState : IDs(CHARGING) {
     fun balance(): Int {
         return CHARGING + 1
     }
